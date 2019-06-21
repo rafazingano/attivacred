@@ -1,0 +1,1006 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<style>
+body {
+  font: normal 1.125em/1.5 'Roboto', sans-serif;
+}
+  
+section {
+  margin-bottom: 50px;
+}
+  
+.tall {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 100px;
+}
+  
+@media (max-width: 768px) {
+  .tall {
+    height: 400px;
+  }
+}
+</style>
+
+<title>Untitled Document</title>
+</head>
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/jmenu.min.css">
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform.css">
+   <link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform2.css">
+
+<body>
+
+
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-d743cafc9d1fb7eed204caa92025802f.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+<main class="main ">
+<header class="">
+ <nav class="jmenu">
+      <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
+      <input type="checkbox" id="menu-btn" class="jm-menu-btn">
+      <ul class="jm-collapse">
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/">Home</a></li>
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/about">Quem Somos</a></li>
+        <li class="jm-dropdown">
+          <a href="javascript:void(0)">emprestimos</a>
+          <ul>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/form">Imovel</a></li>
+            <li><a href="javascript:void(0)">Pessoal</a></li>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/veiculo">Veiculo</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="javascript:void(0)">Contato</a></li>
+      </ul>
+    </nav>
+</header>
+    <div class="steps-indicator">
+    <div class="container steps-indicator__container">
+        <a class="steps-messages__back-button">
+          <img src="" alt="Link para voltar tela" class="">
+        </a>
+
+        <div class="steps-indicator__list">
+    <ul>
+        <li class="steps-indicator__step">
+          <span class="current steps-indicator__status">1</span>
+          <span class="steps-indicator__text">Sobre você</span>
+        </li>
+        <li class="steps-indicator__step">
+          <span class=" steps-indicator__status">2</span>
+          <span class="steps-indicator__text">Perfil de crédito</span>
+        </li>
+        <li class="steps-indicator__step">
+          <span class=" steps-indicator__status">3</span>
+          <span class="steps-indicator__text">Sobre o imóvel</span>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+  <div class="home-lead-form-steps page-with-aside">
+    <div class="container">
+      <div class="row">
+        <section class="col-medium-3 page-with-aside__aside steps-messages">
+          <div id="ember572" class="ember-view">  <h1 class="decorated-heading__title">Queremos conhecer você</h1>
+  <p class="decorated-heading__description decorated-heading__description--mobile-visible">
+    Vamos encontrar o empréstimo ideal para o seu momento de vida.
+  </p>
+</div>
+        </section>
+
+        <div class="col-medium-9 page-with-aside__content">
+        <form id="auto-refi-lead" class="container">
+      <div class="auto-refi-lead-form__row">
+      <section class="col-medium-4 page-with-aside__aside">
+        <h1 class="decorated-heading__title">Nos conte sobre você!</h1>
+        <p class="decorated-heading__description">Queremos te conhecer para podermos te atender melhor! E não se preocupe, todas as suas informações estão seguras ;)</p>
+      </section>
+      <div class="col-medium-8 page-with-aside__content">
+        <div id="ember507" class="ember-view"><div data-field-name="lead-intended-credit" id="ember602" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember602-input" id="ember602-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember602-label">
+        Olá! De quanto você precisa?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input inputmode="tel" placeholder="R$ 0,00" id="ember602-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-intended-credit" name="lead-intended-credit">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="customer-full-name" id="ember667" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember667-input" id="ember667-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember667-label">
+        Qual seu nome completo?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input placeholder="Ex: João da Silva Gonçalves" id="ember667-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-full-name" name="customer-full-name">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="customer-cpf" id="ember676" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember676-input" id="ember676-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember676-label">
+        E qual seu CPF?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+    <!---->  <input inputmode="tel" type="text" placeholder="Ex: 111.222.333-44" id="ember676-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-cpf" name="customer-cpf">
+
+
+<!---->  </div>
+</div>
+</div>
+<!---->
+<div data-field-name="customer-birth-date" id="ember689" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember689-input" id="ember689-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember689-label">
+        Quando você nasceu?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input inputmode="tel" placeholder="Ex: 01/02/1990" id="ember689-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-birth-date" name="customer-birth-date">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-zip-code" id="ember696" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember696-input" id="ember696-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember696-label">
+        Qual seu CEP?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input type="tel" placeholder="Ex: 00000-000" id="ember696-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-zip-code" name="lead-zip-code">
+                <small>
+                  <a href="http://www.buscacep.correios.com.br/sistemas/buscacep" target="_blank">
+                    Não sei meu CEP
+                  </a>
+                </small>
+
+
+<!---->  </div>
+</div>
+</div>
+<div id="ember706" class="ember-view"><p data-testid="addressForZipCode" class="text--green"></p></div>
+
+<div data-field-name="lead-monthly-income" id="ember708" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember708-input" id="ember708-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember708-label">
+        Qual a sua renda mensal?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+    <!---->  <input inputmode="tel" placeholder="R$ 10.000,00" id="ember708-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-monthly-income" name="lead-monthly-income">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-professional-status" id="ember713" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember713-input" id="ember713-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember713-label">
+        Qual é a sua situação profissional atualmente?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <select id="ember713-input" class="form-group__text-field select input__field ember-view" insp-form-input-id="lead-professional-status" name="lead-professional-status">  <option>
+      Selecione um item
+  </option>
+  <option value="clt">
+      Assalariado/Registrado
+  </option>
+  <option value="self_employed">
+      Autônomo
+  </option>
+  <option value="freelancer">
+      Profissional Liberal
+  </option>
+  <option value="businessman">
+      Empresário
+  </option>
+  <option value="civil_servant">
+      Funcionário Público
+  </option>
+  <option value="retired">
+      Aposentado/Pensionista
+  </option>
+</select>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="customer-phone" id="ember731" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember731-input" id="ember731-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember731-label">
+        Qual seu contato de celular?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+    <!---->  <input type="tel" placeholder="Ex: (11) 91111-2222" id="ember731-input" class="form-group__text-field inspectletIgnore input__field ember-view" insp-form-input-id="customer-phone" name="customer-phone">
+
+
+<!---->  </div>
+</div>
+</div>
+<div class="form-group">
+<div data-field-name="customer-allow-sms" id="ember737" class="form-group ember-view"><div data-error="false" class="form-field  ">
+  <label for="ember737-input" id="ember737-label" class="form-group__label">
+      <span class="form-field__status">
+<!---->      </span>
+
+    <span id="form-field__label-ember737-label">
+        
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <span id="ember742" class="app-checkbox input__field ember-view"><input type="checkbox" id="ember737-input" insp-form-input-id="customer-allow-sms" name="customer-allow-sms">
+
+<label for="ember742-input">
+  <span class="app-checkbox__check is-checked"></span>
+  Aceito receber contato via
+</label>
+</span>
+    <img src="assets/images/icons/whatsapp-d85d3f5514beb08a2075ab9b6dd128b0.png" alt="whatsapp" class="form-whatsapp__img">
+
+
+<!---->  </div>
+</div>
+</div></div>
+
+<div class="form-group">
+<div data-field-name="customer-allow-sms" id="ember743" class="form-group ember-view"><div data-error="false" class="form-field  ">
+  <label for="ember743-input" id="ember743-label" class="form-group__label">
+      <span class="form-field__status">
+<!---->      </span>
+
+    <span id="form-field__label-ember743-label">
+        
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <span id="ember744" class="app-checkbox input__field ember-view"><input type="checkbox" id="ember743-input" insp-form-input-id="customer-allow-sms" name="customer-allow-sms">
+
+<label for="ember744-input">
+  <span class="app-checkbox__check is-checked"></span>
+  Aceito receber contato via SMS
+</label>
+</span>
+
+
+<!---->  </div>
+</div>
+</div></div>
+
+<div data-field-name="lead-purpose" id="ember746" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember746-input" id="ember746-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember746-label">
+        Como esse empréstimo vai te ajudar?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <select id="ember746-input" class="form-group__text-field select input__field ember-view" insp-form-input-id="lead-purpose" name="lead-purpose">  <option>
+      Selecione um item
+  </option>
+  <option value="debts_payment">
+      Pagamento de dívidas
+  </option>
+  <option value="investment_in_own_business">
+      Investimento
+  </option>
+  <option value="real_estate_renovation">
+      Reforma de casa
+  </option>
+  <option value="goods_acquisition">
+      Aquisição de Bens
+  </option>
+  <option value="debts_refinancing">
+      Refinanciamento de dívidas
+  </option>
+  <option value="others">
+      Outros
+  </option>
+</select>
+
+
+<!---->  </div>
+</div>
+</div></div>
+      </div>
+    </div>
+
+    <div class="auto-refi-lead-form__row ">
+      <section class="col-medium-4 page-with-aside__aside">
+        <h1 class="decorated-heading__title">Nos conte sobre o seu veículo</h1>
+        <p class="decorated-heading__description">Precisamos de algumas informações sobre o veículo que você vai usar como garantia.</p>
+      </section>
+      <div class="col-medium-8 page-with-aside__content">
+          <div id="ember759" class="ember-view"><div class="auto-data__specification-fields">
+<div data-field-name="lead-auto-manufacturing-year" id="ember761" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember761-input" id="ember761-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember761-label">
+        Qual é o ano fabricação do veículo?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <select id="ember761-input" class="form-group__text-field select input__field ember-view" insp-form-input-id="lead-auto-manufacturing-year" name="lead-auto-manufacturing-year">  <option>
+      Selecione um item
+  </option>
+  <option value="2019">
+      2019
+  </option>
+  <option value="2018">
+      2018
+  </option>
+  <option value="2017">
+      2017
+  </option>
+  <option value="2016">
+      2016
+  </option>
+  <option value="2015">
+      2015
+  </option>
+  <option value="2014">
+      2014
+  </option>
+  <option value="2013">
+      2013
+  </option>
+  <option value="2012">
+      2012
+  </option>
+  <option value="2011">
+      2011
+  </option>
+  <option value="2010">
+      2010
+  </option>
+  <option value="2009">
+      2009
+  </option>
+  <option value="2008">
+      2008
+  </option>
+  <option value="2007">
+      2007
+  </option>
+  <option value="2006">
+      2006
+  </option>
+  <option value="2005">
+      2005
+  </option>
+  <option value="2004">
+      2004
+  </option>
+  <option value="2003">
+      2003
+  </option>
+  <option value="2002">
+      2002
+  </option>
+  <option value="2001">
+      2001
+  </option>
+  <option value="2000">
+      2000
+  </option>
+  <option value="1999">
+      1999
+  </option>
+  <option value="1998">
+      1998
+  </option>
+  <option value="1997">
+      1997
+  </option>
+  <option value="1996">
+      1996
+  </option>
+  <option value="1995">
+      1995
+  </option>
+  <option value="1994">
+      1994
+  </option>
+  <option value="1993">
+      1993
+  </option>
+  <option value="1992">
+      1992
+  </option>
+  <option value="1991">
+      1991
+  </option>
+</select>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-auto-year" id="ember794" class="form-group ember-view"><div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
+  <label for="ember794-input" id="ember794-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember794-label">
+        Qual é o ano modelo do veículo?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <select id="ember794-input" class="form-group__text-field select input__field ember-view" insp-form-input-id="lead-auto-year" name="lead-auto-year">  <option>
+      Selecione um item
+  </option>
+  <option value="2001">
+      2001
+  </option>
+  <option value="2002">
+      2002
+  </option>
+</select>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-auto-brand" id="ember861" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember861-input" id="ember861-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember861-label">
+        Qual é a marca do veículo?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+          <select id="ember861-input" class="form-group__text-field select input__field ember-view" insp-form-input-id="lead-auto-brand" name="lead-auto-brand">  <option>
+      Selecione uma opção
+  </option>
+  <option value="CHEVROLET">
+      CHEVROLET
+  </option>
+  <option value="CITROEN">
+      CITROEN
+  </option>
+  <option value="FIAT">
+      FIAT
+  </option>
+  <option value="FORD">
+      FORD
+  </option>
+  <option value="HONDA">
+      HONDA
+  </option>
+  <option value="HYUNDAI">
+      HYUNDAI
+  </option>
+  <option value="PEUGEOT">
+      PEUGEOT
+  </option>
+  <option value="RENAULT">
+      RENAULT
+  </option>
+  <option value="TOYOTA">
+      TOYOTA
+  </option>
+  <option value="VOLKSWAGEN">
+      VOLKSWAGEN
+  </option>
+  <option disabled="">
+      ---
+  </option>
+  <option value="ALFA ROMEO">
+      ALFA ROMEO
+  </option>
+  <option value="AUDI">
+      AUDI
+  </option>
+  <option value="BMW">
+      BMW
+  </option>
+  <option value="BRM">
+      BRM
+  </option>
+  <option value="CADILLAC">
+      CADILLAC
+  </option>
+  <option value="CHEVROLET">
+      CHEVROLET
+  </option>
+  <option value="CHRYSLER">
+      CHRYSLER
+  </option>
+  <option value="CITROEN">
+      CITROEN
+  </option>
+  <option value="DODGE">
+      DODGE
+  </option>
+  <option value="FERRARI">
+      FERRARI
+  </option>
+  <option value="FIAT">
+      FIAT
+  </option>
+  <option value="FORD">
+      FORD
+  </option>
+  <option value="GMC">
+      GMC
+  </option>
+  <option value="HONDA">
+      HONDA
+  </option>
+  <option value="HYUNDAI">
+      HYUNDAI
+  </option>
+  <option value="IVECO">
+      IVECO
+  </option>
+  <option value="JAGUAR">
+      JAGUAR
+  </option>
+  <option value="JEEP">
+      JEEP
+  </option>
+  <option value="KIA">
+      KIA
+  </option>
+  <option value="LAND ROVER">
+      LAND ROVER
+  </option>
+  <option value="MERCEDES-BENZ">
+      MERCEDES-BENZ
+  </option>
+  <option value="MITSUBISHI">
+      MITSUBISHI
+  </option>
+  <option value="NISSAN">
+      NISSAN
+  </option>
+  <option value="PEUGEOT">
+      PEUGEOT
+  </option>
+  <option value="PORSCHE">
+      PORSCHE
+  </option>
+  <option value="RENAULT">
+      RENAULT
+  </option>
+  <option value="SEAT">
+      SEAT
+  </option>
+  <option value="SELVAGEM">
+      SELVAGEM
+  </option>
+  <option value="SUBARU">
+      SUBARU
+  </option>
+  <option value="SUZUKI">
+      SUZUKI
+  </option>
+  <option value="TOYOTA">
+      TOYOTA
+  </option>
+  <option value="TROLLER">
+      TROLLER
+  </option>
+  <option value="VOLKSWAGEN">
+      VOLKSWAGEN
+  </option>
+  <option value="VOLVO">
+      VOLVO
+  </option>
+</select>
+
+
+<!---->  </div>
+</div>
+</div>
+<!---->
+<!---->
+<!---->
+<!---->
+<!----></div>
+
+<!---->
+</div>
+      </div>
+    </div>
+
+    <div class="auto-refi-lead-form__row">
+      <section class="col-medium-4 page-with-aside__aside">
+          <h1 class="decorated-heading__title">Crie sua conta</h1>
+          <p class="decorated-heading__description">Precisamos de alguns dados para ativar sua conta com a Creditas.
+          Com seu login e senha, você pode acessar sua conta e prosseguir com sua solicitação de onde quiser.</p>
+      </section>
+
+      <div class="col-medium-8 page-with-aside__content">
+        <div id="ember803" class="public-consultation-authorization form-group ember-view"><!----></div>
+
+<div data-field-name="customer-email" id="ember807" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember807-input" id="ember807-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember807-label">
+        Qual o seu email?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+                <div id="ember812" class="email-input input__field ember-view"><input type="email" id="ember807-input" placeholder="Ex: joao.silva@gmail.com" class="inspectletIgnore form-group__text-field" insp-form-input-id="customer-email" name="customer-email">
+<!----></div>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="customer-allow-email" id="ember813" class="form-group ember-view"><div data-error="false" class="form-field  ">
+  <label for="ember813-input" id="ember813-label" class="form-group__label">
+      <span class="form-field__status">
+<!---->      </span>
+
+    <span id="form-field__label-ember813-label">
+        
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+                <span id="ember814" class="app-checkbox input__field ember-view"><input type="checkbox" id="ember813-input" insp-form-input-id="customer-allow-email" name="customer-allow-email">
+
+<label for="ember814-input">
+  <span class="app-checkbox__check is-checked"></span>
+  Quero receber novidades da Creditas por email!
+</label>
+</span>
+
+
+<!---->  </div>
+</div>
+</div>
+            <button type="button" class="btn btn--fluid btn-facebook" data-ember-action="" data-ember-action-815="815">
+              <img src="/svgs/icon-facebook-16f5a7db3ec0aa3376857b20f9d1f87b.svg" alt="Facebook" class="btn-facebook-img">
+                Continuar com o Facebook
+            </button>
+
+            <p class="col--center center">
+              OU
+            </p>
+
+          <div id="ember816" class="ember-view"><div data-field-name="customer-password" id="ember818" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember818-input" id="ember818-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember818-label">
+        Crie uma senha
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input placeholder="Mínimo de 6 caracteres" type="password" id="ember818-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-password" name="customer-password">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="customer-password-confirmation" id="ember823" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember823-input" id="ember823-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember823-label">
+        Confirme sua senha
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+      <input placeholder="Confirme sua senha" type="password" id="ember823-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-password-confirmation" name="customer-password-confirmation">
+
+
+<!---->  </div>
+</div>
+</div></div>
+
+          <button type="submit" class="btn btn--primary btn--fluid">
+            Continuar
+          </button>
+
+<!---->
+        <div class="center">
+          <small>
+            Ao continuar, você estará de acordo com os
+            <a href="https://www.creditas.com.br/legal/termos-condicoes" target="_blank" class="link">termos de uso</a>
+            e com a <a href="https://www.creditas.com.br/legal/politica-privacidade" target="_blank" class="link">política de privacidade</a>.
+          </small>
+            <p>Já tem uma conta? <a href="/login" id="ember829" class="link--call-to-action ember-view">Entrar</a></p>
+        </div>
+      </div>
+    </div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/jquery/jquery.min.js"></script>
+
+
+</main>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>EstateAgency Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href=" http://temporario.web7073.uni5.net/AtivaCred/assets/img/Logotipo.png" rel="icon">
+  <link href=" http://temporario.web7073.uni5.net/AtivaCred/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href=" http://temporario.web7073.uni5.net/AtivaCred/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: EstateAgency
+    Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head><section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Atendimento</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Phone .</span> contact@example.com</li>
+                <li class="color-a">
+                  <span class="color-text-a">Email .</span> +54 356 945234</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Informaçoes</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Sobre</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Contato</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Emprestimos</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Imóvel como Garantia</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Veículo como Garantia</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Crédito Consignado/a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Crédito Pessoal</a>
+                </li>
+                
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+           <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Legal</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Politica de Privacidade</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Termos de Uso</a>
+                </li>
+               
+         
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">2018 Attiva Cred </span> Todos os direitos Reservados. 	
+            </p>
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
+            -->
+            Designed by <a href="https://bootstrapmade.com/">  Agência Visoart®  - Criação de Sites e Marketing Digital</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/jquery/jquery.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/popper/popper.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/easing/easing.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/js/main.js"></script>

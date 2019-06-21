@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<style>
+body {
+  font: normal 1.125em/1.5 'Roboto', sans-serif;
+}
+  
+section {
+  margin-bottom: 50px;
+}
+  
+.tall {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 100px;
+}
+  
+@media (max-width: 768px) {
+  .tall {
+    height: 400px;
+  }
+}
+</style>
+
+<title>Untitled Document</title>
+</head>
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/jmenu.min.css">
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform.css">
+   <link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform2.css">
+<body>
+
+
+
+<main class="main ">
+<header class="">
+<nav class="jmenu">
+      <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
+      <input type="checkbox" id="menu-btn" class="jm-menu-btn">
+      <ul class="jm-collapse">
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/">Home</a></li>
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/about">Quem Somos</a></li>
+        <li class="jm-dropdown">
+          <a href="javascript:void(0)">emprestimos</a>
+          <ul>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/form">Imovel</a></li>
+            <li><a href="javascript:void(0)">Pessoal</a></li>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/veiculo">Veiculo</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="javascript:void(0)">Contato</a></li>
+      </ul>
+    </nav>
+</header>
+    <div class="steps-indicator">
+    <div class="container steps-indicator__container">
+        <a class="steps-messages__back-button">
+         
+        </a>
+
+        <div class="steps-indicator__list">
+   <ul>
+        <li class="steps-indicator__step">
+         <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel"> <span class="current steps-indicator__status">1</span>
+          <span class="steps-indicator__text">Sobre você</span></a>
+        </li>
+        <li class="steps-indicator__step">
+          <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel/step2"> <span class=" steps-indicator__status">2</span>
+          <span class="steps-indicator__text">Perfil de crédito</span></a>
+        </li>
+        <li class="steps-indicator__step">
+          <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel/step3"> <span class=" steps-indicator__status">3</span>
+          <span class="steps-indicator__text">Sobre o imóvel</span></a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+  <div class="home-lead-form-steps page-with-aside">
+    <div class="container">
+      <div class="row">
+        <section class="col-medium-3 page-with-aside__aside steps-messages">
+          <div id="ember572" class="ember-view">  <h1 class="decorated-heading__title"></h1>
+  <p class="decorated-heading__description decorated-heading__description--mobile-visible">
+    Vamos encontrar o empréstimo ideal para o seu momento de vida.
+  </p>
+</div>
+        </section>
+
+        <div class="col-medium-9 page-with-aside__content">
+       <form action="" id="ajax_form" method="post">
+  <div data-field-name="lead-real-estate-zip-code" id="ember772" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember772-input" id="ember772-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember772-label">
+        Qual CEP do seu imóvel?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <input type="tel" placeholder="00000-000" id="ember772-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-real-estate-zip-code" name="lead-real-estate-zip-code">
+    <small>
+      <a href="http://www.buscacep.correios.com.br/sistemas/buscacep" target="_blank">
+        Não sei meu CEP
+      </a>
+    </small>
+
+
+<!---->  </div>
+</div>
+</div>
+  <div id="ember782" class="ember-view"><p data-testid="addressForZipCode" class="text--green"></p></div>
+
+<!---->
+  <div class="form-group">
+<div data-field-name="lead-real-estate-number" id="ember784" class="ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember784-input" id="ember784-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember784-label">
+        Qual o número do seu imóvel?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+          <input placeholder="000" id="ember784-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-real-estate-number" name="lead-real-estate-number">
+
+
+<!---->  </div>
+</div>
+</div>    <span id="ember788" class="real-estate-no-number-checkbox app-checkbox input__field ember-view"><input type="checkbox">
+
+<label for="ember788-input">
+  <span class="app-checkbox__check "></span>
+  Imóvel sem número
+</label>
+</span>
+  </div>
+
+<div data-field-name="lead-real-estate-type" id="ember790" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember790-input" id="ember790-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember790-label">
+        Qual o tipo do imóvel?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <div id="ember790-input" class="radio-input input__field radio-input--horizontal-with-icons ember-view" insp-form-input-id="lead-real-estate-type" name="lead-real-estate-type">    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-type" id="lead-real-estate-type-house" value="house">
+      <label for="lead-real-estate-type-house" class="radio-input__label">
+          <svg name="house" id="ember793" class="radio-input__icon icon-svg icon-house ember-view"><use xlink:href="/assets/svgs-69babcf3e599e12235783362375f7da6.svg#house"></use>
+</svg>
+        <div>
+          <span class="radio-input__button"></span>
+          Casa Residencial
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-type" id="lead-real-estate-type-apartment" value="apartment">
+      <label for="lead-real-estate-type-apartment" class="radio-input__label">
+          <svg name="apartment" id="ember795" class="radio-input__icon icon-svg icon-apartment ember-view"><use xlink:href="/assets/svgs-69babcf3e599e12235783362375f7da6.svg#apartment"></use>
+</svg>
+        <div>
+          <span class="radio-input__button"></span>
+          Apartamento Residencial
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-type" id="lead-real-estate-type-commercial" value="commercial">
+      <label for="lead-real-estate-type-commercial" class="radio-input__label">
+          <svg name="commercial" id="ember797" class="radio-input__icon icon-svg icon-commercial ember-view"><use xlink:href="/assets/svgs-69babcf3e599e12235783362375f7da6.svg#commercial"></use>
+</svg>
+        <div>
+          <span class="radio-input__button"></span>
+          Comercial
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-type" id="lead-real-estate-type-land" value="land">
+      <label for="lead-real-estate-type-land" class="radio-input__label">
+          <svg name="land" id="ember799" class="radio-input__icon icon-svg icon-land ember-view"><use xlink:href="/assets/svgs-69babcf3e599e12235783362375f7da6.svg#land"></use>
+</svg>
+        <div>
+          <span class="radio-input__button"></span>
+          Terreno
+        </div>
+      </label>
+    </div>
+</div>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-real-estate-value" id="ember801" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember801-input" id="ember801-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember801-label">
+        Qual o valor estimado do imóvel?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <input inputmode="tel" placeholder="R$ 0,00" id="ember801-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-real-estate-value" name="lead-real-estate-value">
+
+
+<!---->  </div>
+</div>
+</div>
+  <div id="ember805" class="form-group ember-view"><!----></div>
+
+<div data-field-name="lead-real-estate-has-debts" id="ember806" class="form-group ember-view"><div data-error="false" class="form-field  ">
+  <label for="ember806-input" id="ember806-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember806-label">
+        Este imóvel está quitado?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+    <div id="ember806-input" class="ember-view"><div class="conditional-fields">
+    <div id="ember812" class="radio-input input__field radio-input--horizontal-with-buttons ember-view">    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-has-debts" id="lead-real-estate-has-debts-false" value="false">
+      <label for="lead-real-estate-has-debts-false" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Sim
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-real-estate-has-debts" id="lead-real-estate-has-debts-true" value="true">
+      <label for="lead-real-estate-has-debts-true" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Não
+        </div>
+      </label>
+    </div>
+</div>
+<!----></div>
+</div>
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-has-deed" id="ember816" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember816-input" id="ember816-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember816-label">
+        Você tem a matrícula do imóvel?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <div id="ember816-input" class="radio-input input__field radio-input--horizontal-with-buttons ember-view" insp-form-input-id="lead-has-deed" name="lead-has-deed">    <div class="radio-input__item">
+      <input type="radio" name="lead-has-deed" id="lead-has-deed-yes" value="yes">
+      <label for="lead-has-deed-yes" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Sim
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-has-deed" id="lead-has-deed-no" value="no">
+      <label for="lead-has-deed-no" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Não
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-has-deed" id="lead-has-deed-do_not_know" value="do_not_know">
+      <label for="lead-has-deed-do_not_know" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Não sei
+        </div>
+      </label>
+    </div>
+</div>
+
+
+<!---->  </div>
+</div>
+</div>
+<div id="ember823" class="form-help-component content-out ember-view"><p class="form-help-prompt" data-ember-action="" data-ember-action-824="824">
+  O que é matrícula?
+</p>
+<div class="form-help-content">
+      <p>
+      A certidão de matrícula é o documento que mostra quem é o proprietário
+      e o histórico de alterações do imóvel.
+    </p>
+    <p>
+      <strong>Onde fica?</strong> No cartório de Registro de Imóveis (RGI).
+    </p>
+    <p>
+      <strong>É provável que você tenha a matrícula se:</strong><br>
+      - Você financiou seu imóvel<br>
+      - Seu imóvel é um apartamento<br>
+      - Você foi em um cartório registrar o imóvel
+    </p>
+    <p>
+      <strong>Não confunda este documento com:</strong><br>
+      - IPTU<br>
+      - Escritura<br>
+      - Contrato de compra e venda
+    </p>
+
+</div>
+</div>
+  <button type="submit" data-test="realty-step" class="btn btn--primary btn--fluid">
+    Finalizar
+  </button>
+
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+</body>
+</html>

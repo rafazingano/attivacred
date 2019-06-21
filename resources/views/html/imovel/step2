@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<style>
+body {
+  font: normal 1.125em/1.5 'Roboto', sans-serif;
+}
+  
+section {
+  margin-bottom: 50px;
+}
+  
+.tall {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 100px;
+}
+  
+@media (max-width: 768px) {
+  .tall {
+    height: 400px;
+  }
+}
+</style>
+
+<title>Untitled Document</title>
+</head>
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/jmenu.min.css">
+<link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform.css">
+   <link rel="stylesheet" href="http://temporario.web7073.uni5.net/AtivaCred/assets/css/ativaform2.css">
+
+<body>
+
+
+
+<main class="main ">
+<header class="">
+ <nav class="jmenu">
+      <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
+      <input type="checkbox" id="menu-btn" class="jm-menu-btn">
+      <ul class="jm-collapse">
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/">Home</a></li>
+        <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/about">Quem Somos</a></li>
+        <li class="jm-dropdown">
+          <a href="javascript:void(0)">emprestimos</a>
+          <ul>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/form">Imovel</a></li>
+            <li><a href="javascript:void(0)">Pessoal</a></li>
+            <li><a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/veiculo">Veiculo</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="javascript:void(0)">Contato</a></li>
+      </ul>
+    </nav>
+</header>
+    <div class="steps-indicator">
+    <div class="container steps-indicator__container">
+        <a class="steps-messages__back-button">
+        
+        </a>
+
+        <div class="steps-indicator__list">
+    <ul>
+        <li class="steps-indicator__step">
+         <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel"> <span class="current steps-indicator__status">1</span>
+          <span class="steps-indicator__text">Sobre você</span></a>
+        </li>
+        <li class="steps-indicator__step">
+          <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel/step2"> <span class=" steps-indicator__status">2</span>
+          <span class="steps-indicator__text">Perfil de crédito</span></a>
+        </li>
+        <li class="steps-indicator__step">
+          <a href="http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel/step3"> <span class=" steps-indicator__status">3</span>
+          <span class="steps-indicator__text">Sobre o imóvel</span></a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+  <div class="home-lead-form-steps page-with-aside">
+    <div class="container">
+      <div class="row">
+        <section class="col-medium-3 page-with-aside__aside steps-messages">
+          <div id="ember572" class="ember-view">  <h1 class="decorated-heading__title"></h1>
+  <p class="decorated-heading__description decorated-heading__description--mobile-visible">
+    Vamos encontrar o empréstimo ideal para o seu momento de vida.
+  </p>
+</div>
+        </section>
+
+        <div class="col-medium-9 page-with-aside__content">
+            <form action="" id="ajax_form" method="post">
+  <div data-field-name="customer-cpf" id="ember708" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember708-input" id="ember708-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember708-label">
+        Qual seu CPF?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+          <input inputmode="tel" type="text" placeholder="Ex: 111.222.333-44" id="ember708-input" class="form-group__text-field input__field ember-view" insp-form-input-id="customer-cpf" name="customer-cpf">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-family-monthly-income" id="ember715" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember715-input" id="ember715-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember715-label">
+        Qual a renda mensal da sua família?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <input inputmode="tel" placeholder="Ex: R$ 3.000,00" id="ember715-input" class="form-group__text-field input__field ember-view" insp-form-input-id="lead-family-monthly-income" name="lead-family-monthly-income">
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-professional-status" id="ember720" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember720-input" id="ember720-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember720-label">
+        Qual seu tipo de atividade profissional?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <div id="ember720-input" class="radio-input input__field ember-view" insp-form-input-id="lead-professional-status" name="lead-professional-status">    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-clt" value="clt">
+      <label for="lead-professional-status-clt" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Assalariado
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-self_employed" value="self_employed">
+      <label for="lead-professional-status-self_employed" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Autônomo
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-freelancer" value="freelancer">
+      <label for="lead-professional-status-freelancer" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Profissional Liberal
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-businessman" value="businessman">
+      <label for="lead-professional-status-businessman" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Empresário
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-civil_servant" value="civil_servant">
+      <label for="lead-professional-status-civil_servant" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Funcionário Público
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-retired" value="retired">
+      <label for="lead-professional-status-retired" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Aposentado
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-professional-status" id="lead-professional-status-other" value="other">
+      <label for="lead-professional-status-other" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Outro
+        </div>
+      </label>
+    </div>
+</div>
+
+
+<!---->  </div>
+</div>
+</div>
+<div data-field-name="lead-purpose" id="ember738" class="form-group ember-view"><div data-error="false" class="form-field form-field--pristine form-group--pristine pristine">
+  <label for="ember738-input" id="ember738-label" class="form-group__label">
+<!---->
+    <span id="form-field__label-ember738-label">
+        Como esse empréstimo vai te ajudar?
+    </span>
+
+<!---->  </label>
+
+  <div class="input form-field__input ">
+<!---->
+        <div id="ember738-input" class="radio-input input__field ember-view" insp-form-input-id="lead-purpose" name="lead-purpose">    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-debts_payment" value="debts_payment">
+      <label for="lead-purpose-debts_payment" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Pagamento de dívidas
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-investment_in_own_business" value="investment_in_own_business">
+      <label for="lead-purpose-investment_in_own_business" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Investimento
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-real_estate_renovation" value="real_estate_renovation">
+      <label for="lead-purpose-real_estate_renovation" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Reforma de casa
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-goods_acquisition" value="goods_acquisition">
+      <label for="lead-purpose-goods_acquisition" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Aquisição de Bens
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-debts_refinancing" value="debts_refinancing">
+      <label for="lead-purpose-debts_refinancing" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Refinanciamento de dívidas
+        </div>
+      </label>
+    </div>
+    <div class="radio-input__item">
+      <input type="radio" name="lead-purpose" id="lead-purpose-others" value="others">
+      <label for="lead-purpose-others" class="radio-input__label">
+<!---->        <div>
+          <span class="radio-input__button"></span>
+          Outros
+        </div>
+      </label>
+    </div>
+</div>
+
+
+<!---->  </div>
+</div>
+</div>
+  <button id="step2" type="button" data-test="person-info-step-2" class="btn btn--primary btn--fluid">
+    Continuar
+  </button>
+
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+
+ <script src="http://temporario.web7073.uni5.net/AtivaCred/assets/lib/jquery/jquery.min.js"></script>
+  
+<script>
+
+   $(document).ready(function(){
+    $('#step2').click(function(){
+        $.ajax({
+            url : 'http://temporario.web7073.uni5.net/AtivaCred/Imovel/dados',
+            type : 'POST',
+            data : 'valor=' + $('#valor').val() +'&nome=' + $('#nome').val(),
+			
+			
+            success: function(data){
+				
+                $("#recebe").load("http://temporario.web7073.uni5.net/AtivaCred/welcome/imovel/step3")	
+            }
+        });
+    });
+})
+</script>
+</body>
+</html>
