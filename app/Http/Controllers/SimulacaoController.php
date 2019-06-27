@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Simulacao;
 
-class AdminController extends Controller
+class SimulacaoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,11 +16,6 @@ class AdminController extends Controller
     {
         $data['simulacoes'] = Simulacao::all();
         return view('admin_simulacoes', $data);
-    }
-
-    public function configurations()
-    {
-        return view('admin_configurations');
     }
 
     /**

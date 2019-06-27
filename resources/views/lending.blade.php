@@ -1,5 +1,5 @@
 <form id="regForm" action="{{ route('send') }}">
-    <h1>Emprestimo</h1>
+    <h1>Simulação de Emprestimo</h1>
     <!-- One "tab" for each step in the form: -->
 
     <div class="tab">SOBRE VOCÊ

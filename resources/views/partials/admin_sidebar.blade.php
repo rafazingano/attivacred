@@ -18,6 +18,21 @@
                             <span>Dashboard</span>
                         </a>
                     </li>
+
+                    <li class="nav-parent nav-expanded nav-active">
+                        <a href="#">
+                            <i class="fa fa-columns" aria-hidden="true"></i>
+                            <span>Simulações</span>
+                        </a>
+                        <ul class="nav nav-children">
+                            <li>
+                                <a href="{{ route('admin.simulacoes.index') }}">
+                                    Listagem
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
                     <li class="nav-parent nav-expanded nav-active">
                         <a href="#">
                             <i class="fa fa-columns" aria-hidden="true"></i>
@@ -25,8 +40,8 @@
                         </a>
                         <ul class="nav nav-children">
                             <li>
-                                <a href="{{ route('admin.configurations') }}">
-                                    Geral
+                                <a href="{{ route('admin.taxas.edit', 1) }}">
+                                    Taxas
                                 </a>
                             </li>
                         </ul>

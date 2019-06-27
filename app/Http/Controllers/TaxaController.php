@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Simulacao;
+use App\Taxa;
 
-class AdminController extends Controller
+class TaxaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,13 +14,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $data['simulacoes'] = Simulacao::all();
-        return view('admin_simulacoes', $data);
-    }
-
-    public function configurations()
-    {
-        return view('admin_configurations');
+        //
     }
 
     /**
@@ -63,7 +57,8 @@ class AdminController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data['taxa'] = Taxa::find(1);
+        return view('admin_taxas', $data);
     }
 
     /**
@@ -75,7 +70,10 @@ class AdminController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $taxa = Taxa::find(1);
+
+        $taxa->update($request->all());
+        return redirect()->route('admin.taxas.edit', 1)->with('status', 'Editado com sucesso!');
     }
 
     /**

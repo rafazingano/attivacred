@@ -1985,3 +1985,10 @@ footer .credits {
         font-size: 1.3rem;
     }
 }
+
+.jmenu ul li ul li a {
+    color: #FFF;
+    display: inline-block;
+    padding: 0px 32px !important;
+    text-decoration: none;
+}

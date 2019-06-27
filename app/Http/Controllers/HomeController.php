@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Simulacao;
 
 class HomeController extends Controller
 {
@@ -49,7 +50,13 @@ class HomeController extends Controller
     }
 
     public function send(Request $request){
-        dd($request->all());
+        $data['page'] = 'resultado';
+        $data['title'] = 'Simulação';
+        $data['simulacao'] = Simulacao::create([
+            'options' => $request->all()
+        ]);
+        return view('internals', $data);
+        //return redirect()->route('home');
     }
 
 }

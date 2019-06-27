@@ -18,7 +18,8 @@ Route::middleware(['auth'])
     ->name('admin.')
     ->group(function () {
         Route::get('/', 'AdminController@index')->name('index');
-        Route::get('/configurations', 'AdminController@configurations')->name('configurations');
+        Route::resource('simulacoes', 'SimulacaoController');
+        Route::resource('taxas', 'TaxaController');
     });
 Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/emprestimos/{type}', 'HomeController@lending')->name('lending');

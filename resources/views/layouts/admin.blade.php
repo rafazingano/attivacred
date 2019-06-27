@@ -42,6 +42,11 @@
 							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
 						</div>
                     </header>
+                    @if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
                     @yield('content')
                 </section>
             </div>
