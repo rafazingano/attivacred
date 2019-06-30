@@ -8,18 +8,16 @@
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Valor</th>
       </tr>
     </thead>
     <tbody>
         @foreach($simulacoes as $s)
             <tr>
                 <th scope="row">{{ $loop->iteration }}</th>
-                <td>{{ $s->options['nome'] }}</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>{{ isset($s->options['perfil']['nome'])? $s->options['perfil']['nome'] : null }}</td>
+                <td>{{ isset($s->options['resultado']['total'] )? $s->options['resultado']['total'] : null }}</td>
             </tr>
         @endforeach
     </tbody>

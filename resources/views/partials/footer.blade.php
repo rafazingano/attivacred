@@ -36,10 +36,10 @@
                         <div class="w-body-a">
                             <ul class="list-unstyled">
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Sobre</a>
+                                     <a href="#">Sobre</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Contato</a>
+                                    <a href="#">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,17 +55,17 @@
                     <div class="w-body-a">
                         <ul class="list-unstyled">
                             <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Imóvel como Garantia</a>
+                                 <a href="#">Imóvel como Garantia</a>
                             </li>
                             <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">
+                                 <a href="#">
                                     Veículo como Garantia</a>
                             </li>
                             <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Crédito Consignado/a>
+                                 <a href="#">Crédito Consignado/a>
                             </li>
                             <li class="item-list-a">
-                                <i class="fa fa-angle-right"></i> <a href="#">Crédito Pessoal</a>
+                                 <a href="#">Crédito Pessoal</a>
                             </li>
                         </ul>
                     </div>
@@ -111,4 +111,4 @@
         </div>
     </div>
 </footer>
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="back-to-top"><i>TOP</i></a>

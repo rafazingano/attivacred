@@ -1,7 +1,8 @@
 
 <H1>Contato</H1>
 <hr>
-<form action="" onsubmit="return false;" id="home-refinancing-lead-step-1" method="post">
+<form action="{{ route('contactSend') }}" method="post">
+        @csrf
     <div data-field-name="lead-intended-credit" id="ember586" class="form-group ember-view">
         <div data-error="false" class="form-field form-field--dirty form-group--dirty dirty">
             <label for="ember586-input" id="ember586-label" class="form-group__label">

@@ -25,4 +25,5 @@ Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/emprestimos/{type}', 'HomeController@lending')->name('lending');
 Route::post('/emprestimos', 'HomeController@lendingPost')->name('lendingPost');
 Route::get('/contato', 'HomeController@contact')->name('contact');
-Route::get('/enviar', 'HomeController@send')->name('send');
+Route::post('/contato/send', 'HomeController@contactSend')->name('contactSend');
+Route::post('/simulacao', 'HomeController@simulacao')->name('simulacao');
