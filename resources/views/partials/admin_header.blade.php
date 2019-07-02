@@ -14,8 +14,8 @@
                 <figure class="profile-picture">
                     <img src="{{ asset('assets/images/%21logged-user.jpg') }}" alt="Joseph Doe" class="img-circle" data-lock-picture="{{ asset('assets/images/%21logged-user.jpg') }}" />
                 </figure>
-                <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
-                    <span class="name">John Doe Junior</span>
+                <div class="profile-info" data-lock-name="John Doe" data-lock-email="">
+                    <span class="name">Administrator</span>
                     <span class="role">administrator</span>
                 </div>
                 <i class="fa custom-caret"></i>
@@ -26,7 +26,7 @@
                     <li>
                         <a role="menuitem" tabindex="-1" href="">
                             <i class="fa fa-power-off"></i>
-                            Logout
+                            Sair
                         </a>
                     </li>
                 </ul>

@@ -28,8 +28,7 @@
 				@include('partials.admin_sidebar')
 				<section role="main" class="content-body">
 					<header class="page-header">
-						<h2>Default Layout</h2>
-						<div class="right-wrapper pull-right">
+						<h2>Default Layoutashboardclass="right-wrapper pull-right">
 							<ol class="breadcrumbs">
 								<li>
 									<a href="index.html">
