@@ -246,24 +246,39 @@ Acesse e simule a opção de melhor atende as suas necessidades.
 	<div class="container">
 			<div class="row">
 		<div class="skill-home"> <div class="skill-home-solid clearfix">
-		<div class="col-md-2">
+        <div class="col-md-2" style="    margin-right: 20px;"><h3 style="    float: left;
+            padding: 30px 10px 0 0;
+            color: #fff;
+            font-weight: 900;">1.</h3>
 		<span class="icons c1"> <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/computer-1.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span> <div class="box-area">
 		<h3></h3> <p>Você efetua a simulação dentro da modalidade e das condições que lhe atende.</p></div>
 		</div>
-		<div class="col-md-2">
-		<span class="icons c2"> <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/texto.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span>
+		<div class="col-md-2" style="    margin-right: 20px;"><h3 style="    float: left;
+            padding: 30px 10px 0 0;
+            color: #fff;
+            font-weight: 900;">2.</h3>
+		<span class="icons c2" > <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/texto.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span>
 		<div class="box-area">
 		<h3></h3> <p>Juntamos com você outras informações e documentos para a análise de crédito.</p></div>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-2" style="    margin-right: 20px;"><h3 style="    float: left;
+            padding: 30px 10px 0 0;
+            color: #fff;
+            font-weight: 900;">3.</h3>
 		<span class="icons c3"> <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/analise.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span> <div class="box-area">
 		<h3></h3> <p>Seu crédito é rapidamente analisado.</p></div>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-2" style="    margin-right: 20px;"><h3 style="    float: left;
+            padding: 30px 10px 0 0;
+            color: #fff;
+            font-weight: 900;">4.</h3>
 		<span class="icons c4"> <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/confirma.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span> <div class="box-area">
 		<h3></h3> <p>Com o crédito aprovado, combinamos as assinaturas no contrato e o registro das garantias quando for o caso.</p>
 		</div></div>
-        <div class="col-md-2">
+        <div class="col-md-2" style="    margin-right: 20px;"><h3 style="    float: left;
+            padding: 30px 10px 0 0;
+            color: #fff;
+            font-weight: 900;">5.</h3>
 		<span class="icons c4"> <img src="http://temporario.web7073.uni5.net/AtivaCred/assets/img/aprovado.fw.png" height="125" style="max-width:100%; height:auto; display:block;"></span> <div class="box-area">
 		<h3></h3> <p>Seu crédito é liberado na sua conta corrente.</p>
 		</div></div>

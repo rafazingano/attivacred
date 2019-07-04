@@ -1,4 +1,8 @@
-<header class="">
+<header class="" style="    position: absolute;
+width: 500px;
+right: 20px;
+border: 0 !important;
+top: 40px;">
     <nav class="jmenu" >
         <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
         <input type="checkbox" id="menu-btn" class="jm-menu-btn">
